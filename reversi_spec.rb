@@ -5,7 +5,7 @@ include Reversi
 
 describe Board do
   subject(:board) { Board.new }
-
+#very concise.
   its(:grid) {should == Array.new(8) {Array.new(8)}}
 
   describe '#setup_board' do
